@@ -1,0 +1,77 @@
+# git ignore file
+project.lock.json
+*.cachefile
+**/obj/**
+**/bin/**
+deploy
+deploy/*
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+~$*
+*.exe
+**/packages/*
+*/obj/*
+!NuGet.exe
+*/bin/*
+*/obj/*
+*/bin
+*\bin\**
+
+#Log files
+**/Logs/EventLog.*
+UpgradeLog.htm
+UpgradeLog[0-9]*.htm
+
+#Visual Studio files
+.vs
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+/bin/*
+# Output files
+*.exe
+*.xml
+*.txt
+*.nupkg
+*.transform
+*.psd1
+*.psm1
+*.orig
+*.cache
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.pdb
+obj/
+_ReSharper*/
+[Tt]est[Rr]esult*
+
